@@ -69,10 +69,10 @@ def run_games():
         check_winner(user_wins, computer_wins)
 
 def check_winner(user_wins, computer_wins):
-    if computer_wins == 3:
+    if computer_wins == 2:
         print('El ganador es la computadora')
         exit()
-    if user_wins == 3:
+    if user_wins == 2:
         print('El ganador es el usuario')
         exit()
         
