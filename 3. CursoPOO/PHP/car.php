@@ -1,5 +1,5 @@
 <?php
-require_once 'account.php'
+require_once('account.php');
 
 class Car {
     public $id;
@@ -7,7 +7,7 @@ class Car {
     public $driver;
     public $passegenger;
 
-    public function __construct($license, Account $driver){
+    public function __construct($license, $driver){
         $this->license = $license;
         $this->driver = $driver;
     }
@@ -15,6 +15,8 @@ class Car {
     public function printDataCar(){
         echo "license: $this->license, 
         conductor: {$this->driver->name},
-        document: {$this->driver->document}"
+        document: {$this->driver->document}";
     }
 }
+
+?>

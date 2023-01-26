@@ -8,8 +8,10 @@ class Account {
     public $password;
 
     public function __costruct($name, $document){
-        $this -> name = $name;
-        $this -> document = $document;
+        $this->name = $name;
+        $this->document = $document;
     }
 
 }
+
+?>
