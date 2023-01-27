@@ -7,7 +7,7 @@ class Account {
     public $email;
     public $password;
 
-    public function __costruct($name, $document){
+    public function __construct($name, $document){
         $this->name = $name;
         $this->document = $document;
     }
