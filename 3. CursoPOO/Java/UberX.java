@@ -8,8 +8,13 @@ class UberX extends Car {
         // this hace referencia a los atributos de la clase hija
         this.brand = brand;
         this.model = model;
+    }
 
-
+    @Override
+    void printDataCar() {
+        // TODO Auto-generated method stub
+        super.printDataCar();
+        System.out.println("Modelo: " + model + " brand: " + brand);
     }
     
 }
